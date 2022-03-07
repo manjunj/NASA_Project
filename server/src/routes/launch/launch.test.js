@@ -16,7 +16,7 @@ describe('Launches API',()=>{
 
     describe('Test GET/launches',()=>{
         test('200 success',async ()=>{
-            const response = await request(app).get('/launch').expect(200)
+            const response = await request(app).get('/v1/launch').expect(200)
         })
     })
 
